@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600');
+
+html, body{
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  color: #081A35;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #0F80EF;
+  color: #FFF;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #081A35;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: calc(100% - 40px);
+  max-width: 500px;
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 30px 35px -20px rgba(0, 0, 0, 0.1);
+}
+
+.card .copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* --------------------------------------------------
+static
+-------------------------------------------------- */
+.build-static {
+  background: rgb(221,226,240);
+  background: -moz-linear-gradient(135deg, rgba(221,226,240,1) 0%, rgba(160,171,202,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(221,226,240,1) 0%, rgba(160,171,202,1) 100%);
+  background: linear-gradient(135deg, rgba(221,226,240,1) 0%, rgba(160,171,202,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dde2f0",endColorstr="#a0abca",GradientType=1);
+}
+
+.build-static .github-corner svg {
+  fill: #7D8599;
+}
